@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: 'Roboto Slab', serif;
+  font: "Roboto Slab", serif;
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -34,7 +34,7 @@ figure {
 
 figcaption {
   position: absolute;
-  padding:1rem;
+  padding: 1rem .5rem;
   max-width: 15em;
   border-radius: 8px;
   color: #fff;
